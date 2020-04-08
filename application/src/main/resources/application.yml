@@ -1,0 +1,4 @@
+bowerzoom:
+  db:
+    memory: true
+    datebase: false
