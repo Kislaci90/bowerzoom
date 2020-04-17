@@ -25,7 +25,7 @@ repositories {
 sourceSets {
 	generated
 	e2e
-	integration
+	integrationTest
 }
 
 dependencies {
@@ -51,7 +51,7 @@ dependencies {
 		exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
 	}
 
-	integrationImplementation('org.springframework.boot:spring-boot-starter-test') {
+	integrationTestImplementation('org.springframework.boot:spring-boot-starter-test') {
 		exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
 	}
 }
