@@ -1,3 +1,15 @@
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          github:
+            clientId: 99d57985ce7594e03dcd
+            clientSecret: 00d2a0354da9da0901b11be6f34fa14cc4a886f4
+          google:
+            clientId: 99d57985ce7594e03dcd
+            clientSecret: 00d2a0354da9da0901b11be6f34fa14cc4a886f4
+
 bowerzoom:
   db:
     memory: true
